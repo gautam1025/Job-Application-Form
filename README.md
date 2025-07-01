@@ -1,0 +1,2 @@
+# Job Application Form
+A responsive and modern Job Application Form built using only HTML and CSS. It includes labeled input fields, dropdowns, a file upload option, and a styled submit button. The form is designed with a clean layout, subtle animations, and an interactive user experience using flexbox and shadows — perfect for beginners learning frontend form design.  Features:  Fully responsive layout  Styled input fields and buttons  Dropdowns, textarea, and file upload  Modern UI with hover and focus effects  Pure HTML and CSS – no JavaScript
