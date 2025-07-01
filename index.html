@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+    <form>
+        <h1>Job Application Form</h1>
+
+        <label for="fullname">Full Name*</label>
+        <input type="text" placeholder="Enter full name" id="fullname" name="fullname" required>
+
+        <label for="email">Email*</label>
+        <input type="email" placeholder="Enter email address" id="email" name="email" required>
+
+        <label for="phone">Phone Number*</label>
+        <input type="tel" placeholder="Enter active phone number" id="phone" name="phone" required>
+
+        <label for="education">Highest Qualification*</label>
+        <select id="education" name="education" required>
+            <option value="">--Select--</option>
+            <option value="highschool">High School</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="Undergraduate">Undergraduate</option>
+            <option value="Postgraduate">Postgraduate</option>
+            <option value="Ph.D">Ph.D</option>
+        </select>
+
+        <label for="address">Address</label>
+        <textarea id="address" name="address" placeholder="Enter your address"></textarea>
+
+        <label for="city">City*</label>
+        <input type="text" placeholder="Enter city" id="city" name="city" required>
+
+        <label for="pincode">Pincode*</label>
+        <input type="number" placeholder="Enter pincode" id="pincode" name="pincode" required>
+
+        <label for="dob">Date of Birth*</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="jobrole">Job Role*</label>
+        <select id="jobrole" name="jobrole" required>
+            <option value="">--Select--</option>
+            <option value="frontend">Front-End Developer</option>
+            <option value="backend">Backend Developer</option>
+            <option value="fullstack">Full-Stack Developer</option>
+            <option value="designer">UI/UX Designer</option>
+        </select>
+
+        <label for="upload">Upload your Resume</label>
+        <input type="file" id="upload" name="upload" required>
+
+        <button type="submit">Submit</button>
+
+    </form>
+    </div>
+    
+</body>
+</html>
